@@ -1,7 +1,7 @@
 body {
-    background-color: #26422a;
+    background-color: #F6F4E8;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #f0dfe2;
+    color: #1D3124;
     padding-left:10%;
     padding-right:10%;
     align-content: center;
@@ -25,6 +25,7 @@ body {
     display:grid;
     gap:10px;
     grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat (12, 1fr);
 }
 .intro {
     grid-column: 1 / span 9;
@@ -33,9 +34,11 @@ body {
     padding: 10px;
     font-size:12pt;
     grid-column: 10 / span 3;
+    grid-row: 1 / span 3;
 }
 .sidebar > h4 {
     font-size: 12pt;
+    color: #F6F4E8;
 }
 .sidebar > ul > a {
     font-size: 8pt;
@@ -43,10 +46,10 @@ body {
 a {
     text-decoration: none;
     list-style-type: none;
-    color: #f0dfe2;
+    color: #F6F4E8;
     font-weight: 800;
 }
 .sidebar, .nav {
     border-radius: 5px;
-    background-color: #1c3620;
+    background-color: #1D3124;
 }
